@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog de rafi59 - Blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2018-04-01T00:00:00+02:00</updated><entry><title>Présentation des Framapages</title><link href="/presentation_des_framapges.html" rel="alternate"></link><published>2018-04-01T00:00:00+02:00</published><updated>2018-04-01T00:00:00+02:00</updated><author><name>rafi59</name></author><id>tag:None,2018-04-01:/presentation_des_framapges.html</id><summary type="html">&lt;p&gt;Dans cet article je vais présenter les Framapages.&lt;/p&gt;
+&lt;p&gt;Les Framapages sont un service proposé par l'association Framasoft et qui permet de créer une page web très facilement. Elles sont propulsées par &lt;a href="https://framagit.org/framasoft/PrettyNoemieCMS"&gt;NoémieCMS&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Créer une page&lt;/h2&gt;
+&lt;p&gt;On commence donc par créer un compte sur &lt;a href="https://frama.site/"&gt;https://frama.site/&lt;/a&gt; et on clique sur …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Dans cet article je vais présenter les Framapages.&lt;/p&gt;
+&lt;p&gt;Les Framapages sont un service proposé par l'association Framasoft et qui permet de créer une page web très facilement. Elles sont propulsées par &lt;a href="https://framagit.org/framasoft/PrettyNoemieCMS"&gt;NoémieCMS&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Créer une page&lt;/h2&gt;
+&lt;p&gt;On commence donc par créer un compte sur &lt;a href="https://frama.site/"&gt;https://frama.site/&lt;/a&gt; et on clique sur nouveau site en suite ce menu s'affiche et on chosit Créer une page.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image" src="/images/framapages1.png"&gt;&lt;/p&gt;
+&lt;p&gt;Remplissez le formulaire&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image" src="/images/framapages2.png"&gt;&lt;/p&gt;
+&lt;p&gt;Dès que vous avez fini de le remplir faites créer la page&lt;/p&gt;
+&lt;h2&gt;La modification&lt;/h2&gt;
+&lt;p&gt;Maintenant que nous avons créer notre page nous allons la remplir.&lt;/p&gt;
+&lt;p&gt;Allez à l'url https://lenomquevousavezdonnedansleformulaire.frama.site/login&lt;/p&gt;
+&lt;p&gt;Remplissez les champs Login et Mot de Passe&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image" src="/images/framapages3.png"&gt;&lt;/p&gt;
+&lt;p&gt;Et voici votre site !&lt;/p&gt;
+&lt;p&gt;Voici la liste des modules disponibles&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image" src="/images/framapages4.png"&gt;)&lt;/p&gt;
+&lt;h2&gt;Petite vidéo&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://peertube.cpy.re/videos/embed/1174e225-1a2e-4e6c-8ab4-1b709cd46978" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Je ferais un autre article avec la présentation des modules.&lt;/p&gt;
+&lt;p&gt;A bientôt&lt;/p&gt;</content><category term="Framapages"></category><category term="Framasites"></category><category term="Framasoft"></category></entry><entry><title>Installer YunoHost sur un Raspberry Pi</title><link href="/installer_yunohost_sur_un_raspberry_pi.html" rel="alternate"></link><published>2017-10-28T00:00:00+02:00</published><updated>2017-10-28T00:00:00+02:00</updated><author><name>rafi59</name></author><id>tag:None,2017-10-28:/installer_yunohost_sur_un_raspberry_pi.html</id><summary type="html">&lt;p&gt;Dans cet article nous allons installer YunoHost sur un Raspberry Pi
+Prérequis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un Raspberry Pi 0, 1, 2 ou 3 ;&lt;/li&gt;
+&lt;li&gt;Une carte SD : au moins 8 Go et Classe 10&lt;/li&gt;
+&lt;li&gt;Un adaptateur secteur pour la alimenter la carte&lt;/li&gt;
+&lt;li&gt;Un câble ethernet/RJ-45 pour brancher la carte à votre routeur/box …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Dans cet article nous allons installer YunoHost sur un Raspberry Pi
+Prérequis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un Raspberry Pi 0, 1, 2 ou 3 ;&lt;/li&gt;
+&lt;li&gt;Une carte SD : au moins 8 Go et Classe 10&lt;/li&gt;
+&lt;li&gt;Un adaptateur secteur pour la alimenter la carte&lt;/li&gt;
+&lt;li&gt;Un câble ethernet/RJ-45 pour brancher la carte à votre routeur/box internet. Avec le Raspberry Pi Zero vous pouvez connecter votre carte avec un câble OTG et un adaptateur Wifi USB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Téléchargement de l’image pour Raspberry Pi&lt;/p&gt;
+&lt;p&gt;Rendez vous sur https://build.yunohost.org et choisissez Raspberry Pi et cliquez sur image et sha256 pour télécharger les fichiers nécessaires.&lt;/p&gt;
+&lt;p&gt;Ensuite dézippez le fichier obtenu dans un dossier et copiez le deuxième fichier qui se termine en .sum dedans.
+Installation de Etcher&lt;/p&gt;
+&lt;p&gt;Ensuite rendez vous sur https://etcher.io pour installer etcher qui permet de copier une image disque sur une carte sd&lt;/p&gt;
+&lt;p&gt;Sélectionnez l’image qui se trouve dans le dossier précédemment crée, choisissez votre carte sd et faites Flash
+&lt;img alt="" src="https://rafi59.codelib.re/blog/wp-content/uploads/2017/08/etcher.png"&gt;
+Quand la copie est terminée mettez la carte sd dans votre Raspberry Pi et démarrez le en branchant l’alimentation.
+Postinstallation&lt;/p&gt;
+&lt;p&gt;Pour démarrer la postinstallation regardez dans les paramètres de votre routeur pour trouver l’adresse ip de votre Raspberry Pi&lt;/p&gt;
+&lt;p&gt;Connectez vous à l’adresse ip de votre Raspberry Pi et normalement vous allez tomber sur cette page&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://rafi59.codelib.re/blog/wp-content/uploads/2017/08/postinstall_web.png"&gt;&lt;/p&gt;
+&lt;p&gt;Sur la page suivante vous allez choisir un domaine :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si vous avez votre domaine que vous avez acheté choisissez la première option&lt;/li&gt;
+&lt;li&gt;Si vous n’avez pas de nom de domaine choisissez la deuxième option qui vous permettra d’avoir un sous domaine gratuit en .nohost.me ou .noho.st&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dans la prochaine étape vous allez choisir un mot de passe d’administration&lt;/p&gt;
+&lt;p&gt;Et vous avez un serveur YunoHost tout neuf dans le prochain article nous allons installer des applications essentielles.&lt;/p&gt;</content><category term="yunohost"></category><category term="autohebergement"></category></entry></feed>

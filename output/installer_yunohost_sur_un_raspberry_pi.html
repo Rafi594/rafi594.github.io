@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+        <title>Installer YunoHost sur un Raspberry Pi</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog de rafi59 Full Atom Feed" />
+        <link href="/feeds/blog.atom.xml" type="application/atom+xml" rel="alternate" title="Blog de rafi59 Categories Atom Feed" />
+
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/pygment.css" />
+
+        <script src="/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+
+            <script type="text/javascript">
+                var _paq = _paq || [];
+                    _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                    (function() {
+                     var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.rafi59.codelib.re//";
+                     _paq.push(['setTrackerUrl', u+'piwik.php']);
+                     _paq.push(['setSiteId', 1]);
+                     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+                     g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+                 })();
+            </script>
+            <noscript><p><img src="http://stats.rafi59.codelib.re//piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+
+</head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="/">Blog de rafi59 <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="/">Home</a></li>
+
+
+              </ul>
+            </div>
+
+<section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="/installer_yunohost_sur_un_raspberry_pi.html" rel="bookmark"
+                   title="Permalink to Installer YunoHost sur un Raspberry Pi">Installer YunoHost sur un Raspberry Pi</a></h2>
+           
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2017-10-28T00:00:00+02:00">
+                sam. 28 octobre 2017
+              </abbr>
+              <address class="vcard author">By 
+                <a class="url fn" href="/author/rafi59.html"> rafi59</a>
+              </address>
+            </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <p>Dans cet article nous allons installer YunoHost sur un Raspberry Pi
+Prérequis</p>
+<ul>
+<li>Un Raspberry Pi 0, 1, 2 ou 3 ;</li>
+<li>Une carte SD : au moins 8 Go et Classe 10</li>
+<li>Un adaptateur secteur pour la alimenter la carte</li>
+<li>Un câble ethernet/RJ-45 pour brancher la carte à votre routeur/box internet. Avec le Raspberry Pi Zero vous pouvez connecter votre carte avec un câble OTG et un adaptateur Wifi USB.</li>
+</ul>
+<p>Téléchargement de l’image pour Raspberry Pi</p>
+<p>Rendez vous sur https://build.yunohost.org et choisissez Raspberry Pi et cliquez sur image et sha256 pour télécharger les fichiers nécessaires.</p>
+<p>Ensuite dézippez le fichier obtenu dans un dossier et copiez le deuxième fichier qui se termine en .sum dedans.
+Installation de Etcher</p>
+<p>Ensuite rendez vous sur https://etcher.io pour installer etcher qui permet de copier une image disque sur une carte sd</p>
+<p>Sélectionnez l’image qui se trouve dans le dossier précédemment crée, choisissez votre carte sd et faites Flash
+<img alt="" src="https://rafi59.codelib.re/blog/wp-content/uploads/2017/08/etcher.png">
+Quand la copie est terminée mettez la carte sd dans votre Raspberry Pi et démarrez le en branchant l’alimentation.
+Postinstallation</p>
+<p>Pour démarrer la postinstallation regardez dans les paramètres de votre routeur pour trouver l’adresse ip de votre Raspberry Pi</p>
+<p>Connectez vous à l’adresse ip de votre Raspberry Pi et normalement vous allez tomber sur cette page</p>
+<p><img alt="" src="https://rafi59.codelib.re/blog/wp-content/uploads/2017/08/postinstall_web.png"></p>
+<p>Sur la page suivante vous allez choisir un domaine :</p>
+<ul>
+<li>Si vous avez votre domaine que vous avez acheté choisissez la première option</li>
+<li>Si vous n’avez pas de nom de domaine choisissez la deuxième option qui vous permettra d’avoir un sous domaine gratuit en .nohost.me ou .noho.st</li>
+</ul>
+<p>Dans la prochaine étape vous allez choisir un mot de passe d’administration</p>
+<p>Et vous avez un serveur YunoHost tout neuf dans le prochain article nous allons installer des applications essentielles.</p>
+            </div><!-- /.entry-content -->
+            
+            <script src="https://sense.framasoft.org/sense3.js" data-sense3="728x90"></script>
+
+
+        </div><!-- /.eleven.columns -->
+
+<div class="three columns">
+
+<h4>Pages</h4>
+ <ul>
+  </ul>
+<script src="https://sense.framasoft.org/sense3.js" data-sense3="300x250"></script>
+<img src="https://framaclic.org/h/blog-rafi59" alt="">
+
+
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul class="blank">
+    <li><a href="#">You can add links in your config file</a></li>
+    <li><a href="#">Another social link</a></li>
+  </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+
+       <div class="container.nopad bg">
+
+    
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                <li><div class="btn primary"><a href="github.com/Rafi594" target="_blank">Github</a></div></li>
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+  <script src="/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="/theme/js/libs/gumby.min.js"></script>
+  <script src="/theme/js/plugins.js"></script>
+</body>
+</html>
